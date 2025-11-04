@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
 }
 
 #logo-text {
@@ -34,7 +35,7 @@ body {
 .header ul {
     display: flex;
     list-style-type: none;
-    gap: 15px;
+    gap: 20px;
 }
 
 .header a {
@@ -72,20 +73,15 @@ body {
     border: 0px;
 }
 
-.hero-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 650px;
-    background-color: rgb(164, 164, 164);
-    color: white;
+.hero-main img {
+    max-height: 242px;
 }
 
 .info-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 80px;
     padding-bottom: 80px;
     gap: 30px;
 }
@@ -98,7 +94,6 @@ body {
 
 .info-parts {
     display: flex;
-    align-items: center;
     justify-content: center;
     gap : 10px;
     flex-wrap: wrap;
@@ -109,10 +104,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 5px;
 }
 
-.info-part-img {
+.info-part img {
     width: 200px;
     height: 200px;
     border: solid 4px #3882F6;
@@ -122,6 +118,7 @@ body {
 .info-part-text {
     text-align: center;
     padding: 0 25px;
+    margin: 0;
 }
 
 .quote-section {
@@ -130,48 +127,52 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .quote-part {
     display: flex;
     flex-direction: column;;
+    gap: 20px;
+    justify-content: center;
 }
 
 .quote {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
-    width: 790px;
     font-style: italic;
 }
 
 .author {
     font-size: 24px;
     font-weight: 700;
-    display: flex;
-    justify-content: flex-end;
     padding-right: 30px;
+    text-align: right;
 }
 
 .sign-up-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .sign-up-part {
+    flex: 1;
     background-color: #3882F6;
     padding: 40px 100px;
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
     border-radius: 10px;
 }
 
 .sign-up-left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #sign-up-text {
@@ -210,5 +211,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 20px 0;
 }
