@@ -56,7 +56,9 @@ body {
 
 .hero-left {
     width: 450px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #hero-main-text {
@@ -65,22 +67,33 @@ body {
     color: #F9FAF8;
 }
 
+.hero-left p {
+    color: #f9faf8ce;
+}
+
 .hero-button {
     background-color: #3882F6;
     color: white;
-    padding: 5px 30px;
+    width: 100px;
+    padding: 5px 0px;
     border-radius: 10px;
     cursor: pointer;
     border: 0px;
 }
 
-.hero-main img, .hero-left {
+.hero-right {
+    display: flex;
+    align-items: center;
+}
+
+.hero-right img {
     max-height: 242px;
 }
 
 .info-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -96,6 +109,7 @@ body {
 .info-parts {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap : 10px;
     flex-wrap: wrap;
 }
@@ -167,6 +181,7 @@ body {
     display: flex;
     gap: 200px;
     justify-content: space-between;
+    align-items: center;
     border-radius: 10px;
 }
 
